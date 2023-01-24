@@ -12,3 +12,15 @@ Between the input of data and the output of a representative model, Deep Learnin
 model's behaviour. This steps form networks and process information similar to the way that neurons in the human brain do. This 
 also means that Deep Learning requires significant computer processing power when creating a model using large amounts of 
 data, and many intermittent steps.
+
+
+The types of Deep Learning Algorithms that I have learned and implemented:
+
+
+Artificial Neural Networks (Which customers are the most likely to leave a hypothetical bank)
+
+Convolutional Neural Networks (Algorithm Image recognition using 8000 images of cats and dogs)
+
+Recurrent Neural Networks (Time series analysis: Loblaws stock prices prediction)
+
+Self Organizing Maps (Predict banking fraud for a hypothetical bank using their client information)
