@@ -14,13 +14,39 @@ also means that Deep Learning requires significant computer processing power whe
 data, and many intermittent steps.
 
 
-The types of Deep Learning Algorithms that I have learned and implemented:
+The types of Deep Learning Algorithms (Different ways that I have implemented each one):
 
 
-Artificial Neural Networks (Which customers are the most likely to leave a hypothetical bank)
+1. Artificial Neural Networks (Which customers are the most likely to leave a hypothetical bank)
 
-Convolutional Neural Networks (Algorithm Image recognition using 8000 images of cats and dogs)
+Artificial Neural Networks are based on brain function and are used to simulate connections between neurons in the brain. This
+is achieved by placing nodes between the input and output stages. These nodes process the input parameteres and 
+ajust the significance of each parameter through many iterations and comparing how close the output of the 
+the algorithm is to the testing data set. Adjustments are made to the algorithm until the difference between
+the output value is extremely close to the actual value. This acceptable error range gives us an optimal algorithm.
 
-Recurrent Neural Networks (Time series analysis: Loblaws stock prices prediction)
+2. Convolutional Neural Networks (Algorithm Image recognition using 8000 images of cats and dogs)
 
-Self Organizing Maps (Predict banking fraud for a hypothetical bank using their client information)
+Convolutional Neural Networks are a deep learning algorithm that is used for object or image recognition. The algorithm goes through the 
+data set containing  the images, reduces the size of each image for eaier computation, analyzes the pixel data, and tries to identify
+the subsequent images using the data it collects along the way. The algorithm improves with every iteration.
+
+3. Recurrent Neural Networks (Time series analysis: Loblaws stock prices prediction)
+
+Recurrent Neural Networks are used to analyse sequential data and time-series data. It uses internal feed back loops at it's nodes to 
+retain the  recent information that it consumed. It uses the new information and the retained information to 
+build an alorithm that can make predictions of highly probable future data points.
+
+
+4. Self Organizing Maps (Predict banking fraud for a hypothetical bank using their client information)
+
+Self Organizing Mapsreduces the number of parameters in a large dataset. It keeps the most impactful parameters
+and groups the different row elements (e.g. customers, voters, clients, etc.) into categories. 
+The same set of rows can be observed with more significance given to different or new parameters. 
+Several iterations with occasianal parameter changes can  help
+identify certain patterns/behaviours and allow for prediction of highly probable future patterns (e.g. 
+certain reactions or decisions voters might make given a new ballot issue). The different categories help
+identify the reaction or lack there of to a given parameter by  that members of that category. An example of an SOM
+is a heat-map.
+
+
